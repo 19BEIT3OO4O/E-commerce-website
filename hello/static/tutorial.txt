@@ -1,0 +1,15 @@
+=> using django version=4.0.2
+1.create &start project command => django-admin startproject mysite
+2.run djnago project => py manage.py runserver
+3.django make knowlege to database ==>makemigration,
+4.using data knowelge change database => migrate
+
+5. create superuser command=>python manage.py createsuperuser
+6.startapp => 
+7.mapping =>urls.py 
+8.def function => views.py
+9.run in own server => py manage.py runserver 0.0.0.0:4000
+10.you are create diffrent app like this enroll,employee_project this app name is addd in setting.py folder =>INSTALLED_APPS+=EXTERNAL_APPS
+11.LOGICAL PART write in => views.py		
+12.render use => render template
+13.static => static file collect image
